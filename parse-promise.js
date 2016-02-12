@@ -1,1 +1,1 @@
-// please use promise approach to figth the naive one in parse-callback.js
+// please use promise approach to fight the naive one in parse-callback.js
