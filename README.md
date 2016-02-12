@@ -17,4 +17,6 @@ The backlog is as folows:
 
 **Note**: The sendSms and LogToS3 has surprises, please deal with that.
 
+Ah, yes, one last thing, please use http://jscs.info/ to make your code consistent.
+
 Have fun!
