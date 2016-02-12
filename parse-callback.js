@@ -25,7 +25,7 @@ function naive() {
                     helper.sendSms(line, function afterSending(err, sendingStatus) {
                         let lineToLog;
                         if (err) {
-                            console.log(err);
+                            debug(err.message);
 
                             lineToLog = {
                                 sendingStatus,
@@ -36,7 +36,7 @@ function naive() {
                         if (lineToLog) {
                             helper.logToS3(lineToLog, function afterLogging(err, loggingStatus) {
                                 if (err) {
-                                    console.log(err);
+                                    debug(err.message);
                                 }
                             });
                         }

@@ -6,7 +6,7 @@ The backlog is as folows:
 1. Parse the loaded csv.
 2. For each line do transfomation for `first_name` and `last_name` into `full_name`, then put that into the data (hence we have `full_name` for each line).
 3. Send the transformed line via SMS. (see helper.js) 
-4. Log the sent result to S3. (see helper.js)
+4. Log the SMS sending status result to S3. (see helper.js)
 
 ### Discussion
 
@@ -15,7 +15,7 @@ The backlog is as folows:
 
 **Constraint**: Please use async API only e.g. `fs.readFile` **NOT** `fs.readFileSync` for reading files.
 
-**Note**: The `sendSms` and `logToS3` has surprises, please deal with that.
+**Note**: The `sendSms` and `logToS3` have surprises, please deal with that.
 
 Ah, yes, one last thing, please use http://jscs.info/ to make your code consistent.
 
