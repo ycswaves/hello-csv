@@ -10,8 +10,8 @@ The backlog is as folows:
 
 ### Discussion
 
-- What do you think about the `naive()` function (please see parse-callback.js)?
-- Please take a peek at parse-async.js, parse-stream.js and parse-promise.js, then give your best gift to us! (Yes, sending us a proper PR https://help.github.com/articles/creating-a-pull-request/)
+- What do you think about the `naive()` function (please see the parse-callback.js)?
+- Please take a peek at the parse-async.js, parse-stream.js and parse-promise.js, then give your best gift to us! (Yes, sending us a proper PR https://help.github.com/articles/creating-a-pull-request/)
 
 **Constraint**: Please use async API only e.g. `fs.readFile` **NOT** `fs.readFileSync` for reading files.
 
