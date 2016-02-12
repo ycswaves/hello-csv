@@ -13,7 +13,7 @@ The backlog is as folows:
 - What do you think about the `naive()` function (please see `parse-callback.js`)?
 - Please take a peek at `parse-async.js`, `parse-stream.js` and `parse-promise.js`, then give us your best gift to us! (Yes, sending us a proper PR https://help.github.com/articles/creating-a-pull-request/)
 
-**Constraint**: Only use async API for vanilla flow control e.g. for file `fs.read` not `fs.readSync`.
+**Constraint**: Please async API obly e.g. for file reading `fs.read` **NOT** `fs.readSync`.
 
 **Note**: The sendSms and LogToS3 has surprises, please deal with that.
 
