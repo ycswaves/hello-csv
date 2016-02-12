@@ -5,8 +5,8 @@ The backlog is as folows:
 0. Read the file (sample.csv).
 1. Parse the loaded csv.
 2. For each line do transfomation for `first_name` and `last_name` into `full_name`, hence we'll have `full_name` for each line.
-3. Send the transformed line via SMS. (see helper.js) 
-4. Log the SMS sending status result to S3. (see helper.js)
+3. Send the transformed line via SMS. (see [helper.js](https://github.com/HOOQsters/hello-csv/blob/master/helper.js)) 
+4. Log the SMS sending status result to S3. (see [helper.js](https://github.com/HOOQsters/hello-csv/blob/master/helper.js))
 
 ### Discussion
 
