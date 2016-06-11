@@ -15,11 +15,10 @@ function naive() {
 
             for (let index in parsed) {
 
-                let line = parsed[index];
-
-                // FIXME: Put your transformation here
-
                 if (index > 0) {
+                    // FIXME: Put your transformation here
+                    const line = helper.transformLine(parsed[index]);
+
                     debug(`sending data index: ${index - 1}`);
 
                     helper.sendSms(line, function afterSending(err, sendingStatus) {
