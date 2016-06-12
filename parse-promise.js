@@ -64,3 +64,6 @@ new Promise(function(resolve, reject) {
         });
     }
 })
+.catch(function(err) {
+    console.log(err);
+});
